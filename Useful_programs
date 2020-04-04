@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/css" href="exercise.css" media="screen"?>
+
+<useful_programs>
+    <program>
+        <name>Atom</name>
+        <type>Text editor</type>
+        <payment_options>
+          <free_version>yes</free_version>
+          <paid_version>no</paid_version>
+        </payment_options>
+        <open_source>yes</open_source>
+        <image>atom.png</image>
+        <description>Atom is a relatively new editor that came out in 2014 and gained tremendous momentum since. Atom is a free, open-source code editor, it was developed by the GitHub team. Atom uses a free software license for their package and it is maintained by the GitHub community. They aim to offer a premium feel to the editor while keeping it completely free. As well as flexibility to customize the software itself.</description>
+        <features>
+              <feature>81 built-in customizing packets, with the possibility of installing thousands more, and even create your own.</feature>
+              <feature>Supports Teletype, which allows real-time online collaboration.</feature>
+              <feature>Supports Github</feature>
+        </features>
+        <platforms>
+              <platform>Windows</platform>
+              <platform>OS X</platform>
+              <platform>Linux</platform>
+        </platforms>
+    </program>
+    <program>
+        <name>Filezilla</name>
+        <type>File transfer program</type>
+        <payment_options>
+          <free_version>yes</free_version>
+          <paid_version>no</paid_version>
+        </payment_options>
+        <open_source>yes</open_source>
+        <image>filezilla.png</image>
+        <description>FileZilla, one of the most popular, free, open source FTP (File Transfer Program) clients available for both Windows and Mac and Linux.</description>
+        <features>
+              <feature>User friendly and easy to use interface.</feature>
+              <feature>Supports FTP, FTP over SSL / TLS (FTPS and FTPES) and SSH File Transfer Protocol (SFTP)</feature>
+              <feature>Multilingual support</feature>
+        </features>
+        <platforms>
+              <platform>Windows</platform>
+              <platform>OS X</platform>
+              <platform>Linux</platform>
+        </platforms>
+    </program>
+    <program>
+        <name>Malwarebytes Anto-Malware</name>
+        <type>Antivirus</type>
+        <payment_options>
+          <free_version>yes</free_version>
+          <paid_version>yes</paid_version>
+        </payment_options>
+        <open_source>no</open_source>
+        <image>malwarebytes.png</image>
+        <description>First launched on January/2006, Malwarebytes detects and eliminates malware. Available in two options, one of them free (which scans and eliminates malware when activated manually) and paid (which can be programmed to scan periodically and also scans USB drives).</description>
+        <features>
+              <feature>Detects and eliminates worms, trojans and rogue software.</feature>
+              <feature>Detects ransomware, exploit and protects from malicious web sites.</feature>
+              <feature>Multilingual support</feature>
+        </features>
+        <platforms>
+              <platform>Windows</platform>
+              <platform>OS X</platform>
+              <platform>Android</platform>
+        </platforms>
+    </program>
+
+    <program>
+        <name>Speccy</name>
+        <type>Utility software</type>
+        <payment_options>
+          <free_version>yes</free_version>
+          <paid_version>no</paid_version>
+        </payment_options>
+        <open_source>Freeware Proprietary Software</open_source>
+        <image>speecy.png</image>
+        <description>Speccy is responsible for displaying information about the components of our computer and we can check the temperature of ouf computer</description>
+        <features>
+              <feature>Show information abour our computer or laptop</feature>
+              <feature>Show te temperature of our coumputer</feature>
+              <feature>It also allows saving this data and retrieving it again to compare the characteristics of various computers </feature>
+        </features>
+        <platforms>
+              <platform>Windows</platform>
+        </platforms>
+    </program>
+</useful_programs>

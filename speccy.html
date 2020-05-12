@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+  <head>
+    <title >Speccy program</title>
+
+  <h1 class="name">Speccy program</h1>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="exercise.css">
+  <script type="text/javascript" src="exercise.js">
+  </script>
+
+  </head>
+
+  <body>
+  <div class="box">
+  Buscar: <input type="text" id="busqueda"/>
+    &#160; <input type="button" value="busca" onclick="buscar();"/>
+
+
+<div class="program">
+  <p class="ingles muestra">
+    Type of program: this is an utility software
+  </p>
+
+  <p class="castellano oculta">
+    Tipo de programa: Es un software de utildiad
+  </p>
+</div>
+
+    <div class="free_version">
+    <p class="ingles muestra">
+      This program has a free version
+      <p class="castellano oculta">
+        Este programa tiene versión gratuíta.
+      </p>
+    </p>
+
+    </div>
+
+    <div class="open_source">
+    <p class="ingles muestra">
+      this program Freeware Proprietary Software
+    </p>
+
+    <p class="castellano oculta">
+      ste programa es propiedad de Freeware
+    </p>
+    </div>
+
+<div class="description">
+    <p class="ingles muestra">
+      Speccy is responsible for displaying information about the components of our computer and we can check the temperature of ouf computer
+    </p>
+    <p class="castellano oculta">
+      Speccy es responsable de mostrar informacion sobre los componentes de nuestro ordenador y además podemos comprobar las temperaturas de nuestro ordenador
+    </p>
+
+</div>
+
+<div class="features">
+
+      <ul class="ingles muestra">
+        <li>Detects and eliminates worms, trojans and rogue software.</li>
+        <li>Detects ransomware, exploit and protects from malicious web sites.</li>
+        <li>Multilingual support</li>
+      </ul>
+
+      <ul class="castellano oculta">
+        <li>Detecta y elimina gusanos, troyanos y software espias</li>
+        <li>Detecta ransomware, errores y proteje de sitos web maliciosos</li>
+        <li>Multilingue</li>
+      </ul>
+
+</div>
+
+<div class="platforms">
+    <p class="muestra">
+        <ul>
+          <li>Windows</li>
+        <li>OS X</li>
+        <li>Linux</li>
+      </ul>
+        </div>
+    </p>
+
+    <p class="image"><img src="images/speccy.png" height="31" width="88" class="center_in_footer"></p>
+
+    <a href="index.html">Back to Index</a>&#160;
+    <a href="atom.html">Next program</a>
+
+    <p class ="selec"> Languaje selection: </p>
+    <div><select id="selItem" onChange="cambioIdioma();"> <!-- onChange llama a la funcion cambiaIdioma();-->
+      <option value="ingles" selected="selected">
+        English
+      </option>
+      <option value="castellano">
+        Castellano
+      </option>
+    </select></div>
+
+<img class="verif" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" class="center_in_footer" />
+
+</div>
+
+    </body>
+</html>

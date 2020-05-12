@@ -1,0 +1,135 @@
+
+
+body{
+  background-color: #259AC0;
+}
+.box  {
+        text-align : left ;
+        margin-bottom : 1cm ;
+        margin-top : 1cm;
+        margin-left: 0.5cm;
+        border:solid;
+        background-color: #AED6F1;
+}
+
+
+.name{
+  text-align: center;
+  font-weight:bold;
+  color:blue;
+  margin-bottom: 0.2cm;
+  font-size: 5ex;
+  border:solid;
+  border-color: black;
+}
+
+.type {
+        margin-bottom: 0.2cm;
+        margin-left: 2cm;
+}
+
+.type:before {
+        content : "Program type: ";
+        font-weight : bold;
+        color: black;
+}
+
+.program{
+      color:red;
+      margin-left: 2cm;
+}
+.program:before{
+  content: "Program:";
+  font-weight: bold;
+  color:black;
+}
+
+.free_version{
+  color: green;
+  margin-left: 2cm;
+
+}
+
+.free_version:before {
+    content : "Free version: " ;
+    font-weight : bold;
+    color: black;
+}
+
+.paid_version:before{
+      content:"Paid version: ";
+      font-weight: bold;
+      color:black;
+}
+
+.paid_version{
+  margin-left: 2cm;
+  color:red;
+
+}
+.open_source:before{
+
+    content:"Open source: ";
+    color:black;
+    font-weight: bold;
+
+}
+.open_source{
+    margin-left: 2cm;
+    color:purple;
+
+}
+
+.description:before {
+  content : "Description: " ;
+  font-weight : bold;
+  color: black;
+}
+
+.image{
+  display:block;
+  weight:200px;
+
+}
+
+.description{
+  margin-left: 2cm;
+  margin-right: 2cm;
+  text-align : left ;
+  margin-bottom : 0.5cm ;
+  margin-top : 0.5cm;
+}
+
+
+.platforms:before{
+  content:"Platforms: ";
+  font-weight : bold;
+  color: black;
+
+}
+
+.platforms{
+  margin-left:2cm;
+}
+
+.features:before{
+  content:"Features: ";
+  font-weight : bold;
+  color: black;
+}
+
+.features{
+  margin-left: 2cm;
+}
+
+.muestra{
+  display:block;
+}
+
+.oculta{
+  display:none;
+}
+
+.selec{
+  text-align: left;
+}

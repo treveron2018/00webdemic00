@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+  <head>
+    <title >Atom program</title>
+
+  <h1 class="name">Atom program</h1>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="exercise.css">
+  <script type="text/javascript" src="exercise.js">
+  </script>
+
+  </head>
+
+  <body>
+  <div class="box">
+  Buscar: <input type="text" id="busqueda"/>
+    &#160; <input type="button" value="busca" onclick="buscar();"/>
+
+
+<div class="program">
+  <p class="ingles muestra">
+    Type of program: this program it is a text editor
+  </p>
+
+  <p class="castellano oculta">
+    Tipo de programa: editor de texto.
+  </p>
+</div>
+
+    <div class="free_version">
+    <p class="ingles muestra">
+      This program has a free version
+      </p>
+      <p class="castellano oculta">
+        Este programa tiene versión gratuíta.
+      </p>
+
+
+    </div>
+
+    <div class="open_source">
+    <p class="ingles muestra">
+      This program it is a open resource for everyone
+    </p>
+
+    <p class="castellano oculta">
+      Este programa tiene código abierto.
+    </p>
+    </div>
+
+<div class="description">
+    <p class="ingles muestra">
+      Atom is a relatively new editor that came out in 2014 and gained tremendous momentum since. Atom is a free, open-source code editor, it was developed by the GitHub team. Atom uses a free software license for their package and it is maintained by the GitHub community. They aim to offer a premium feel to the editor while keeping it completely free, as well as flexibility to customize the software itself.</p>
+
+    <p class="castellano oculta">
+      Atom es un editor relativamente nuevo lanzado en 2014 que ha conseguido mucha inercia desde entonces. Atom es un editor gratuito de código abierto, desarrollado por el equipo de GitHub. Atom utiliza una licencia de software gratuito y se mantiene gracias a la comunidad de GitHub. Su objetivo es ofrecer una experiencia de calidad al editor, totalmente personalizable,  mientras que se mantiene completamente gratuíto.
+    </p>
+
+</div>
+
+<div class="features">
+
+      <ul class="ingles muestra">
+        <li>81 built-in customizing packets, with the possibility of installing thousands more, and even create your own.</li>
+        <li>Supports Teletype, which allows real-time online collaboration.</li>
+        <li>Supports Github.</li>
+      </ul>
+
+      <ul class="castellano oculta">
+        <li>81 paquetes de personalización, con la posibilidad de instalar miles más o crear paquetes propios.</li>
+        <li>Permite usar Teletype, que posibilita la colaboración on-line a tiempo real.</li>
+        <li>Admite GitHub.</li>
+      </ul>
+
+</div>
+
+<div class="platforms">
+    <p class="muestra">
+        <ul>
+          <li>Windows</li>
+        <li>OS X</li>
+        <li>Linux</li>
+      </ul>
+        </div>
+    </p>
+
+    <p class="image"><img src="images/atom.jpg" height="31" width="88" class="center_in_footer"></p>
+
+    <a href="index.html">Back to Index</a> &#160;
+    <a href="filezilla.html">Next program</a>
+
+    <p class ="selec"> Languaje selection: </p>
+    <div><select id="selItem" onChange="cambioIdioma();"> <!-- onChange llama a la funcion cambiaIdioma();-->
+      <option value="ingles" selected="selected">
+        English
+      </option>
+      <option value="castellano">
+        Castellano
+      </option>
+    </select></div>
+
+<img class="verif" src="http://www.w3.org/Icons/valid-xhtml11" alt="Valid XHTML 1.1" height="31" width="88" class="center_in_footer" />
+
+</div>
+
+    </body>
+</html>

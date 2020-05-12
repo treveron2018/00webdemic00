@@ -1,0 +1,12 @@
+Andres Martinez: Encarregat de fer:
+				- Javascript
+				- XML
+
+David Saulape: Encarregat de fer:
+				- Css per tots els htmls
+				- Css aplicat al index
+			
+Luis García: Encarregat de fer:
+				-Htmls
+				-Xsl
+
